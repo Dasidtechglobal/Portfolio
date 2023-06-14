@@ -1,0 +1,662 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	overflow-x: hidden;
+}
+/*header starts here*/
+header > nav{
+	background-color: #eee;
+	position: fixed;
+	width: 1350px;
+
+}
+header > nav >.top-navbar > a{
+	text-decoration: none;
+	width: 20px;
+	background-color:#eee;
+	border-radius: 10px;
+	margin: auto;
+	padding: 10px;
+}
+header > nav > .navbar > .logo  >img{
+	margin:auto;
+	width: 80px;
+	height: 80px;
+	box-sizing: border-box;
+	border-radius: 40px;
+	box-shadow: 5px px 7px #fff;
+	position: fixed;
+	animation: rotation 2s;
+
+}
+.rotate {
+	animation: rotation 2s;
+}
+
+@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(359deg);
+	}
+}
+
+.linear {
+	animation-timing-function: linear;
+}
+.infinite {
+	animation-iteration-count: infinite;
+}
+.rotate-image {
+	animation: rotation 2s linear infinite;
+}
+header > nav > .navbar {
+	display: flex;
+	align-items: center;
+	background-color: #eee;
+	padding:1.5em 3em;
+	text-align: center;
+	justify-content: ;
+}
+
+header > nav > .navbar > ul{
+	width: 1300px;
+	/*background-color: #eee;*/
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding-left: 9em ;
+	font-size: 15px;
+	font-family: sans-serif;
+	position: fixed;
+	z-index: 3;
+}
+
+header > nav > .navbar > ul li{
+	list-style-type: none;
+
+}
+header > nav > .navbar > ul > li >a{
+	text-decoration: none;
+	padding-right: 90px;
+	color: #cab1012;
+}
+header > nav > .navbar > ul > li >a:hover{
+	color: #fff;
+}
+header > nav > .bottom-navbar > ul > li:first-child a{
+	color: #fff;
+}
+
+/*hero-section starts here*/
+hero-section > .hero-container{
+	background-image: url(../images/me.jpg);
+	width: 1340px;
+	height: 620px;
+	margin: auto;
+	padding-top: 50px;
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow-x: hidden;
+}
+
+
+/*hero-section starts here*/
+hero-section > .hero-container > .hero-image > .hero-text >h1{
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	font-size: 45px;
+	font-family: arial;
+	color: #fff;
+}
+
+hero-section > .hero-container > .hero-image > .hero-text >p{
+	color: #555;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	font-size: 25px;
+}
+
+
+
+/*hero-section ends here*/
+
+/*header ends here*/
+
+/*main starts here*/
+main > .main-section{
+	display: flex;
+	/*background-color: #909090*/
+}
+
+main > .main-section > .image > p > img{
+	width: 700px;
+	height: 600px;
+	padding: 4em;
+}
+
+main > .main-section > .bio > h2{
+	padding: 2.5em;
+	text-align: center;
+	color: maroon;
+}
+li{
+	list-style-type: none;
+}
+/*hr{
+	width: 400px;
+	height: 10px;
+	background-color: green;
+	opacity: 0.4;
+}*/
+main > .main-section > .bio > div> a{
+	justify-content: center;
+	align-items: center;
+	margin: 3em auto;
+	text-decoration: none;
+	border: none;
+	background-color: green;
+	color: #fff;
+	width: 50px;
+	padding: 5px 15px;
+	border-radius: 25px;
+	font-size: 1em;
+	opacity: 0.4;
+}
+main > .main-section > .bio > div> a:last-child{
+	color: #fff;
+	background-color: blue;
+}
+main > .main-section > .bio >p{
+	font-size: 20px;
+	font-family: ;
+	color: maroon;
+	margin: auto;
+}
+/*progress bar starts here*/
+
+.container {
+	background-color: rgb(192, 192, 192);
+	width: 100%;
+	border-radius: 15px;
+}
+
+.skill {
+	background-color: rgb(116, 194, 92);
+	color: white;
+	padding: 1%;
+	text-align: right;
+	font-size: 2px;
+	border-radius: 15px;
+}
+
+.html {
+	width: 50%;
+}
+
+.php {
+	width: 60%;
+}
+
+
+/*progress bar ends here*/
+
+/*portfolio starts here*/
+portfolio > .portfolio > h2{
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 35px;
+	color: #939393;
+}
+portfolio > .portfolio > ul {
+	display: flex;
+	padding: 1.3em;
+	justify-content: center;
+}
+
+portfolio > .portfolio > ul > li > a{
+	text-decoration: none;
+	padding: 5px;
+	color: #939393;
+}
+portfolio > .portfolio > div >img{
+	width: 220px;
+	height: 150px;
+	margin: auto;
+	padding-left:15px;
+}
+/*portfolio ends here*/
+/*services starts here*/
+aside > .text> h2{
+	text-align: center;
+	color: black;
+	font-size: 25px;
+	padding: 1.3em;
+}
+aside{
+	padding-top: em;
+	margin-top: 15px;
+}
+aside > .Services{
+	display: flex;
+	width: 800px;
+	height: 250px;
+	margin: auto;
+	align-items: center;
+	text-align: center;
+
+}
+
+aside > .Services >div >img{
+	width: 50px;
+	height: 50px;
+
+}
+aside > .Services >div{
+	box-shadow: 10px 10px 15px #eee, -10px -10px 15px #eee;
+	margin: auto;
+	height: 150px;
+	border:none;
+	padding: 1.2em;
+}
+aside > .Services >div{
+	width: 250px;
+	height: 250px;
+	padding-bottom: 100px;
+}
+
+aside > .Services >div >a{
+	text-decoration: none;
+	background-color: rgb(150, 160, 170);
+	width: 500px;
+	height: 300px;
+	border-radius: 100px;
+	padding: em;
+	color: white;
+
+}
+aside > .Services >div >h3{
+	padding-bottom: 2em;
+
+}
+/*services ends here*/
+/*resume strats here*/
+article{
+	background-color:;
+}
+article> h1{
+	text-align: center;
+	font-size:30px;
+	padding-top: 30px;
+}
+article> .resume {
+	display: flex;
+	/*padding: 1.2em 1.5em;*/
+}
+article> .resume > div > h2{
+	text-align: center;
+	color:;
+}
+article> .resume > div > img{
+	width: 600px;
+	height: 450px;
+	padding: 1.5em;
+	opacity: 0.9;
+}
+article> .resume > .full{
+	display: grid;
+	width: 600px;
+	color: ;
+} 
+article> .resume > .full > .senior{
+	display: flex;
+	padding-right: 2em;
+	white-space: 50px;
+}
+article> .resume > .full > .front{
+	display: flex;
+	text-align: right;
+	align-items: right;
+	justify-content: right;
+}
+article> .resume > .full > .front >p:first-child{
+text-align: left;
+align-items: left;
+justify-content: left;
+color: blue;
+}
+article> .resume > .full > .front>p:last-child{
+text-align: right;
+	align-items: right;
+	justify-content: right;
+	color: red;
+}
+
+article> .resume > .full > .back{
+	display: flex;
+	padding-right:20px ;
+	
+}
+article> .resume > .full > .back >p:first-child{
+	text-align: left;
+}
+article> .resume > .full > .back >p:last-child{
+	text-align: right;
+	align-items: right;
+	justify-content: right;
+}
+
+article> .resume > .full > .lead{
+	display: flex;
+	text-align: right;
+	align-items: right;
+	justify-content: right;
+}
+
+article> .resume > .full > .master{
+	display: flex;
+	text-align: right;
+	align-items: right;
+	justify-content: right;
+}
+
+article> .resume > .full > .bach{
+	display: flex;
+	text-align: right;
+	align-items: right;
+	justify-content: right;
+}
+
+article> .resume > .full > .senior >p:last-child{
+	color:;
+	text-align: right;
+	align-items: right;
+	justify-content: right;
+}
+/*hr{
+width: px;
+color: #eee;
+}*/
+
+
+/*resume ends here*/
+
+/*happy clients starts here*/
+section{
+	background-color: #eee;
+}
+section> .clients{
+	display: flex;
+	width: 800px;
+	height: 400px;
+	background-color:#eee;
+	margin: auto;
+}
+
+section> .clients > .client-Daisy > div >img,
+section> .clients > .client-happy > div >img{
+	width: 80px;
+	height: 80px;
+	box-sizing: border-box;
+	border-radius: 40px;
+	margin: 25px;
+}
+
+section> .clients > .client-happy > div,
+section> .clients > .client-Daisy > div{
+	box-sizing:border-box;
+	padding: 1.8em 2em;
+	display: flex;
+	margin: auto;
+}
+section>.clients > .client-happy > div >.speech{
+	width: 250px;
+	height: 100px;
+	background: white;
+	padding: 30px;
+	text-align: center;
+	font-size: 15px;
+	border-radius:px;
+	color: grey;
+	position: relative;
+}
+
+
+
+section>.clients > .client-Daisy > div >.speech{
+	
+	width: 250px;
+	height: 100px;
+	background: white;
+	padding: 30px;
+	text-align: center;
+	font-size: 15px;
+	border-radius:px;
+	color: grey;
+	position: relative;
+}
+section>.clients > .client-happy > div >.speech:before{
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-top: 13px solid transparent;
+	border-right: 26px solid white;
+	border-bottom: 13px solid transparent;
+	margin: -18px 0 0 -80px;
+}
+
+
+section>.clients > .client-Daisy > div >.speech:before {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-top: 13px solid transparent;
+	border-right: 26px solid white;
+	border-bottom: 13px solid transparent;
+	margin: -18px 0 0 -80px;
+}
+
+
+
+section > h1{
+	padding-top: 20px;
+	text-align: center;
+	color: grey;
+	font-size: 25px;
+	font-family: arial, sans-serif;
+	
+}
+
+/*happy clients ends here
+/*read on medium starts here*/
+.medium{
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	margin:auto;
+	padding-top: 10px;
+}
+.medium >.container-fluid>h1{
+	padding-top: 35px;
+}
+
+.medium > .container-fluid{
+	background: #eee;
+	height: 300px;
+	transition: width 2s;
+}
+.medium > .container-fluid:hover{
+	width: 300px;
+}
+.medium > .container-fluid >ul>hr{
+	width: 400px;
+	height: px;
+	margin: auto;
+	background-color: #eee;
+	padding-top: ;
+}
+/*read on medium ends here*/
+/*contact starts here*/
+
+contact > .contact >  h1{
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	
+}
+contact >.contact > form{
+	box-sizing:;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	width: 500px;
+	display: grid;
+	grid-gap:2em;
+}
+contact >.contact > form >input{
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: solid 3px #eee;
+	font-size: 15px;
+	width: 500px;
+	display: grid;
+	grid-gap:2em;
+	margin: auto;
+}
+contact >.contact > form > textarea{
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: solid 3px #eee;
+	font-size: 25px;
+	width: 500px;
+	display: grid;
+	grid-gap:2em;
+	margin: auto;
+}
+
+contact > .contact > form > input[type="submit"]{
+	color:#fff;
+	opacity: 0.3;
+	border: none;
+	height: 30px;
+	width: 130px;
+	font: bold 15px arial, sans-serif;
+	text-shadow: none;
+	background-color: rgba(0, 225, 0, 1.0 );
+	text-align: center;
+	align-items: center;
+	/*padding: 10px 32px;*/
+	text-decoration: none;
+	margin: 6px 2px;
+	cursor: pointer;
+	border-radius: 75px;
+}
+
+/*contact > .contact > form > input[type="submit"]:hover{
+	color: white;
+}*/
+contact >.contact{
+	display: grid;
+	margin: auto;
+	padding: 25px;
+}
+contact{
+	display: flex;
+	padding-top: 10px;
+	border-top: none;
+	margin: auto;
+}
+contact >.other-contacts{
+	display: ;
+	padding-top: 130px;
+	line-height: 60px;
+}
+contact >.other-contacts >p >img{
+	width: 20px;
+	height: 20px;
+}
+contact >.other-contacts >p{
+	padding: 1.5px;
+	color: rgba(50, 150, 20, 1.0);
+}
+contact >.other-contacts >p >a{
+	text-decoration: none;
+	color: rgba(50, 150, 20, 1.0);
+}
+
+
+/*contact ends here*/
+/*main starts here*/
+
+/*footer starts here*/
+footer > .container-fluid {
+	background-color:#999bca;
+	height: 400px;
+	width: 300px;
+	/*transition-timing-function: linear;*/
+}
+footer > .container-fluid > .footer{
+	display: flex;
+	background-color: #eee;
+	width: 1380px;
+}
+footer > .container-fluid > .footer > div > h2{
+	text-align: center;
+	padding: 1.5em;
+}
+footer > .container-fluid > .footer > div >p{
+	width: 500px;
+	padding: 1.9em;
+	line-height: 25px;
+	text-decoration: none;
+}
+footer > .container-fluid > .footer > div >ul{
+	display: grid;
+	line-height: 40px;
+	padding: 1.5em;
+}
+footer > .container-fluid > .footer > div > p >a{
+	text-decoration: none;
+	width: 20px;
+	background-color:;
+	border-radius: 10px;
+	padding:;
+}
+footer > .container-fluid > .footer > div > p >.copy{
+	color: ;
+	font-size: 10px;
+}
+
+/* On screens that are 600px or less, set the background color to blue */
+@media screen and (max-width: 481px) {
+	header > nav >.top-navbar > a{
+		background-color: yellow;
+	}
+
+	header > nav > .navbar > ul{
+		flex-wrap: nowrap;
+
+	}
+
+
+	footer > .container-fluid > .footer > div > h2{
+		display:block;
+		color:red; 
+		padding:0px;
+		margin: 0px;
+	} 
+}
+/*footer starts here*/
